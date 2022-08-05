@@ -1,4 +1,5 @@
-var activtiyImageList=['file:///C:/Users/USER/Desktop/project/pics/activties/diving.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/cruise.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/cuisine.png', 'file:///C:/Users/USER/Desktop/project/pics/activties/hiking.webp', 'file:///C:/Users/USER/Desktop/project/pics/activties/playing.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/safari.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/surfing.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/walking.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/whale.jpg',];
+console.log("wht da hell");
+var activtiyImageList=['pics/activties/diving.jpg', 'pics/activties/cruise.jpg', 'pics/activties/cuisine.png', 'pics/activties/hiking.webp', 'pics/activties/playing.jpg', 'pics/activties/safari.jpg', 'pics/activties/surfing.jpg', 'pics/activties/walking.jpg', 'pics/activties/whale.jpg',];
 var activityImage = document.getElementById('activityimage');
 //disposable
 var but = document.getElementById('testbut');
@@ -7,6 +8,12 @@ var count=0;
 var t;
 var y;
 var g;
+
+
+//-----importnat correction variable
+//hello world
+var activityImageListReplacement/*=[1,2,3,4,5,6,7,8,9]*/;
+//-----
 
 //identify variables
 var id=0;
@@ -50,6 +57,7 @@ for(var i=0;i<actvityTypeList.length;i++){
 //var activtiyType=document.getElementById('')
 
 activityImage.src=activtiyImageList[0];
+activityImageListReplacement=1;
 console.log(activityImage.src);
 
 activityImage.style.top=200+'px';
@@ -200,6 +208,7 @@ function nextRight(){
          
          case 1:
             activityImage.src=activtiyImageList[0];
+            activityImageListReplacement=1;
             caption[0].style.display='block';
             for(var i =0;i<place1.length;i++){
                if(i==0){
@@ -224,6 +233,7 @@ function nextRight(){
          case 2:
             activityImage.src=activtiyImageList[1];
             caption[1].style.display='block';
+            activityImageListReplacement=2;
             for(var i =0;i<place2.length;i++){
                place2[i].style.display='block';
                if(i==0){
@@ -242,6 +252,7 @@ function nextRight(){
          case 3:
             activityImage.src=activtiyImageList[2];
             caption[2].style.display='block';
+            activityImageListReplacement=3;
             for(var i =0;i<place3.length;i++){
                place3[i].style.display='block';
                if(i==0){
@@ -259,6 +270,7 @@ function nextRight(){
          case 4:
             activityImage.src=activtiyImageList[3];
             caption[3].style.display='block';
+            activityImageListReplacement=4;
             for(var i =0;i<place4.length;i++){
                place4[i].style.display='block';
                if(i==0){
@@ -276,6 +288,7 @@ function nextRight(){
          case 5:
             activityImage.src=activtiyImageList[4];
             caption[4].style.display='block';
+            activityImageListReplacement=5;
             for(var i =0;i<place5.length;i++){
                place5[i].style.display='block';
                if(i==0){
@@ -293,6 +306,7 @@ function nextRight(){
          case 6:
             activityImage.src=activtiyImageList[5];
             caption[5].style.display='block';
+            activityImageListReplacement=6;
             for(var i =0;i<place6.length;i++){
                place6[i].style.display='block';
                if(i==0){
@@ -310,6 +324,7 @@ function nextRight(){
          case 7:
             activityImage.src=activtiyImageList[6];
             caption[6].style.display='block';
+            activityImageListReplacement=7;
             for(var i =0;i<place7.length;i++){
                place7[i].style.display='block';
                if(i==0){
@@ -327,6 +342,7 @@ function nextRight(){
          case 8:
             activityImage.src=activtiyImageList[7];
             caption[7].style.display='block';
+            activityImageListReplacement=8;
             for(var i =0;i<place8.length;i++){
                place8[i].style.display='block';
                if(i==0){
@@ -344,6 +360,7 @@ function nextRight(){
          case 9:
             activityImage.src=activtiyImageList[8];
             caption[8].style.display='block';
+            activityImageListReplacement=9;
             for(var i =0;i<place9.length;i++){
                place9[i].style.display='block';
                if(i==0){
@@ -362,9 +379,10 @@ function nextRight(){
 
    }
    else{disapear();
-   switch(activityImage.src){
-      case activtiyImageList[0]:
+   switch(activityImageListReplacement){
+      case 1:
          activityImage.src=activtiyImageList[1];
+         activityImageListReplacement=2;
          caption[1].style.display='block';
          for(var i =0;i<place2.length;i++){
            // place2[i].style.display='block';
@@ -381,8 +399,9 @@ function nextRight(){
          }
          
          break;
-      case activtiyImageList[1]:
+      case 2:
          activityImage.src=activtiyImageList[2];
+         activityImageListReplacement=3;
          caption[2].style.display='block';
          for(var i =0;i<place3.length;i++){
            // place3[i].style.display='block';
@@ -397,8 +416,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[2]:
+      case 3:
          activityImage.src=activtiyImageList[3];
+         activityImageListReplacement=4;
          caption[3].style.display='block';
          for(var i =0;i<place4.length;i++){
            // place4[i].style.display='block';
@@ -413,8 +433,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[3]:
+      case 4:
          activityImage.src=activtiyImageList[4];
+         activityImageListReplacement=5;
          caption[4].style.display='block';
          for(var i =0;i<place5.length;i++){
           //  place5[i].style.display='block';
@@ -429,8 +450,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[4]:
+      case 5:
          activityImage.src=activtiyImageList[5];
+         activityImageListReplacement=6;
          caption[5].style.display='block';
          for(var i =0;i<place6.length;i++){
            // place6[i].style.display='block';
@@ -445,8 +467,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[5]:
+      case 6:
          activityImage.src=activtiyImageList[6];
+         activityImageListReplacement=7;
          caption[6].style.display='block';
          for(var i =0;i<place7.length;i++){
           //  place7[i].style.display='block';
@@ -461,8 +484,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[6]:
+      case 7:
          activityImage.src=activtiyImageList[7];
+         activityImageListReplacement=8;
          caption[7].style.display='block';
          for(var i =0;i<place8.length;i++){
           //  place8[i].style.display='block';
@@ -477,8 +501,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[7]:
+      case 8:
          activityImage.src=activtiyImageList[8];
+         activityImageListReplacement=9;
          caption[8].style.display='block';
          for(var i =0;i<place9.length;i++){
           //  place9[i].style.display='block';
@@ -493,8 +518,9 @@ function nextRight(){
             }
          }
          break;
-      case activtiyImageList[8]:
+      case 9:
          activityImage.src=activtiyImageList[0];
+         activityImageListReplacement=1;
          caption[0].style.display='block';
          for(var i =0;i<place1.length;i++){
            // place1[i].style.display='block';
