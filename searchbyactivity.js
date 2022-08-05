@@ -1,4 +1,6 @@
+
 console.log("wht da hell");
+
 var activtiyImageList=['pics/activties/diving.jpg', 'pics/activties/cruise.jpg', 'pics/activties/cuisine.png', 'pics/activties/hiking.webp', 'pics/activties/playing.jpg', 'pics/activties/safari.jpg', 'pics/activties/surfing.jpg', 'pics/activties/walking.jpg', 'pics/activties/whale.jpg',];
 var activityImage = document.getElementById('activityimage');
 //disposable
@@ -11,7 +13,9 @@ var g;
 
 
 //-----importnat correction variable
+
 //hello world
+
 var activityImageListReplacement/*=[1,2,3,4,5,6,7,8,9]*/;
 //-----
 
