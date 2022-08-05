@@ -1,4 +1,4 @@
-var activtiyImageList=['file:///C:/Users/USER/Desktop/project/pics/activties/diving.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/cruise.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/cuisine.png', 'file:///C:/Users/USER/Desktop/project/pics/activties/hiking.webp', 'file:///C:/Users/USER/Desktop/project/pics/activties/playing.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/safari.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/surfing.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/walking.jpg', 'file:///C:/Users/USER/Desktop/project/pics/activties/whale.jpg',];
+var activtiyImageList=['pics/activties/diving.jpg', 'pics/activties/cruise.jpg', 'pics/activties/cuisine.png', 'pics/activties/hiking.webp', 'pics/activties/playing.jpg', 'pics/activties/safari.jpg', 'pics/activties/surfing.jpg', 'pics/activties/walking.jpg', 'pics/activties/whale.jpg'];
 var activityImage = document.getElementById('activityimage');
 //disposable
 var but = document.getElementById('testbut');
