@@ -1,0 +1,48 @@
+#dp{
+    position: absolute;
+    top: 180px;
+    width:300px;
+    left: 120px;
+    border-radius: 150px;
+    z-index: 10;
+}
+#aboutme{
+    position: absolute;
+    top:50px;
+    left: 30px;
+    font-size: 35px;
+    color: white;
+}
+#selfintro{
+    position: absolute;
+    width: 95%;
+    top: 120px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.aboutInfoContainer{
+
+    position: absolute;
+    width: 85%;
+    background-color: rgb(228, 228, 57);
+    z-index: 1;
+    height: 70%;
+    left: 100px;
+    top: 150px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}
+.detailsContainer{
+    position: absolute;
+    width: 68%;
+    background: linear-gradient(to bottom, #50e068 0%, #13b93c 100%);
+    z-index: 2;
+    height: 90%;
+    left: 350px;
+    top: 25px;
+    border-radius: 50px;
+}

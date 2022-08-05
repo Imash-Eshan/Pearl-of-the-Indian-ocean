@@ -1,0 +1,766 @@
+/*White space around the heading*/
+.white{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(76, 221, 108);
+    z-index: 5;
+}
+/*Slider content*/
+
+#main-topic{
+    position: fixed;
+    font-size: 45px;
+    left: 150px;
+    top: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 6;
+
+}
+.maintopic{
+    position: fixed;
+    left: -1px;
+    width: 99.5%;
+    top: 0px;
+    height: 120px;
+   z-index: 6;
+   /* border: 5px solid rgb(3, 112, 21);
+    background-color: rgb(243, 241, 241);*/
+    
+}
+#contactstab{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.maintopicsub1{
+    position: fixed;
+   /* border: 1px solid rgb(17, 146, 38);*/  /*rgb(3, 112, 21)*/
+    height: 80px;
+    width: 88%;
+    top: 25px;
+    left: 80px;
+   /* background-color: rgb(13, 121, 31);*/
+   background: linear-gradient(to bottom, #14e45a 0%, #027702 100%);
+    border-radius: 50px;
+
+}
+/* img{
+    height: 120px;
+}*/
+/*p{
+    position: relative;
+    top: 150px;
+}*/
+.navigation{
+    /*border-radius: 40px;*/
+    /*border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;*/
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 7;
+    position: fixed;
+    top: 15px;
+    left: 740px;
+    list-style-type: none;
+    /*background-color: rgb(195, 204, 72);*/
+    background: linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%);
+    width: 35.5%;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+li a{
+    text-decoration: none;
+    
+    display: block;
+    height: 40px;
+    color: rgb(255, 254, 254);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+li{
+    float: left;
+  /*  padding-left: 20px;
+    padding-right: 20px;*/
+}
+li a:hover{
+    background-color: rgb(84, 85, 85);
+}
+#hometab{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+/*Images in the slider*/
+#img1{
+    position: absolute;
+    
+   /* width: 700px;
+    height:300px ;
+    top: 200px;
+    left: 100px;*/
+    z-index: 1;
+
+}
+#img2{
+    position: absolute;
+   
+   /* width: 800px;
+    height: 400px;
+    top: 150px;
+    left: 150px;*/
+    z-index: 2;
+    
+}
+#img3{
+    position: absolute;
+    
+    /*width: 900px;
+    height: 500px;
+    top: 100px;
+    left: 200px;*/
+    z-index: 3;
+    
+}
+#img4{
+    position: absolute;
+   /* width: 800px;
+    height: 400px;
+    top: 150px;
+    left: 350px;*/
+    z-index: 2;
+}
+#img5{
+    position: absolute;
+   /* width: 700px;
+    height:300px ;
+    top: 200px;
+    left: 500px;*/
+    z-index: 1;
+
+    
+}
+
+/*#front{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    top: 120px;
+    left: 250px;
+    z-index: 3;
+
+}
+#right1{
+    position: absolute;
+    width: 615px;
+    height: 400px;
+    top: 170px;
+    left: 580px;
+    z-index: 2;
+    filter: brightness(75%);
+
+}
+#left1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 170px;
+    left: 160px;
+    z-index: 2;
+    filter: brightness(75%);
+
+}
+#right2{
+    position: absolute;
+    width: 465px;
+    height: 300px;
+    left: 810px;
+    top: 220px;
+    filter: brightness(50%);
+
+}
+#left2{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 70px;
+    top: 220px;
+    filter: brightness(50%);
+}*/
+
+
+
+/*Slider Buttons*/
+#slider-left{
+    position: absolute;
+    top: 350px;
+    left: 65px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 151, 65);
+
+}
+#slider-right{
+    position: absolute;
+    top: 350px;
+    right: 65px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 151, 65);
+
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+
+
+/*Slider information styles*/
+.slider-topics{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60%;
+    font-size:40px;
+    top: 200px;
+    
+    z-index: 4;
+    font-weight: bold;
+    color: white;
+
+}
+.slider-description{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size:30px;
+    top: 300px;
+    width: 60%;
+    z-index: 4;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+
+/*Search drop down menu*/
+#searchMenu{
+    position: fixed;
+    z-index: 7;
+    
+}
+
+#dropdown1 { /* Style the Dropdown Button */
+    position: fixed;
+    z-index: 8;
+    font-weight:100;
+    top: 40px;
+    left:1012px ;
+    background: linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%);
+color: rgb(255, 255, 255);
+padding: 10px;
+padding-bottom: 11px;
+font-size: 25px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown { /* Positioning for dropdown content */
+position: fixed;
+display: inline-block;
+top: 89px;
+left: 1012px;
+z-index: 200;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 8;
+}
+.dropdown-content a { /* Styling links inside the dropdown */
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content { /* Show dropdown menu on hover*/
+display: block;
+}
+/* =========delete immediatly ============*/
+#nonsense{
+    background-color: rgb(35, 106, 148);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border-radius: 50px;
+    width: 90%;
+    position: relative;
+    top: 620px;
+    left: 15px;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #47b7eb 0%, #204dca 100%);
+  /*  border: 2px solid rgb(14, 136, 14);*/
+    /*font-weight:600;*/
+    color: #ffffff;
+}
+
+/*why should topic*/
+#whyshould{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    color: white;
+    background: linear-gradient(to bottom, #37e462 0%, #09941b 100%);
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#geography{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #0aa80a;
+    width: 250px;
+    height: 35px;
+
+}
+#geodesc{
+    position: absolute;
+    top: 990px;
+}
+#climate{
+    position: absolute;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #0aa80a;
+
+}
+#climatedesc{
+    position: absolute;
+    top: 1150px;
+}
+#sl{
+    font-size: 30px;
+}
+
+#whyshouldnt{
+    position: absolute;
+    top: 1500px;
+}
+
+#floradesc{
+    position: absolute;
+    top: 1500px;
+}
+#flora{
+    position: absolute;
+    top: 100px;
+    left: 850px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    width: 250px;
+    background-color: #0aa80a;
+
+}
+
+body{
+    background-color: rgb(76, 221, 108);
+   
+}
+/*.trunkleft{
+   
+    
+        position: fixed;
+        background-color: rgb(82, 41, 41);
+        width: 40px;
+        height: 500px;
+        transform: rotate(5deg);
+        top: 200px;
+        border-top-left-radius: 90%;
+        border-top-right-radius: -50%;
+        
+       
+    
+        z-index: 100;
+        
+       
+    
+}
+.leaf1{
+    position: fixed;
+    top: 205px;
+    width:13px;
+    height: 80px;
+    left: 50px;
+    transform: rotate(20deg);
+   
+    border: 2px solid darkgreen;
+ border-radius:  48% 51% 47% 52% / 19% 20% 80% 82% ;
+    background-color: green;
+    z-index: 101;
+}
+.leaf2{
+    position: fixed;
+    top: 170px;
+    width:13px;
+    height: 50px;
+    left: 85px;
+    transform: rotate(250deg);
+    border: 2px solid darkgreen;
+ border-radius:  48% 51% 47% 52% / 19% 20% 80% 82% ;
+    background-color: green;
+    z-index: 101;
+}
+.leaf1special{
+    position: fixed;
+    top: 320px;
+    width:13px;
+    height: 60px;
+    left: 150px;
+    transform: rotate(0deg);
+   
+    border: 2px solid darkgreen;
+ border-radius:  48% 51% 47% 52% / 19% 20% 80% 82% ;
+    background-color: green;
+    z-index: 101;
+
+}
+.leaf2special{
+    position: fixed;
+    top: 300px;
+    width:13px;
+    height: 40px;
+    left: 165px;
+    transform: rotate(270deg);
+    border: 2px solid darkgreen;
+ border-radius:  48% 51% 47% 52% / 19% 20% 80% 82% ;
+    background-color: green;
+    z-index: 101;
+}
+
+*/
+.cloud1{
+    position: absolute;
+    left: 25px;
+    top: 150px;
+    width: 95%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd8d8;
+}
+.cloud2{
+    position: absolute;
+    left: 25px;
+    top: 550px;
+    width: 95%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd8d8;
+}
+.cloud3{
+    position: absolute;
+    left: 85px;
+    top: 300px;
+    width: 88%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd8d8;
+}
+.cloud4{
+    position: absolute;
+    left: 85px;
+    top: 400px;
+    width: 88%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd8d8;
+}
+.y{
+    position:absolute;
+    top: 900px;
+    width: 97%;
+    left: 20px;
+    height: 470px;
+    background-color: #c2eb2f;
+    border-radius: 30px;
+}
+#geographycloud{
+    position: absolute;
+    height: 250px;
+    width: 50px;
+    top: 200px;
+    left: 10px;
+   
+    background-color: #30be30;
+    border-radius: 20px;
+    z-index: 3;
+}
+#climatecloud{
+    position: absolute;
+    height: 250px;
+    width: 60px;
+    top: 200px;
+    left: 10px;
+   
+    background-color: #14993c;
+    border-radius: 20px;
+    z-index: 2;
+}
+#floracloud{
+    position: absolute;
+    height: 250px;
+    width: 70px;
+    top: 200px;
+    left: 10px;
+   
+    background-color: #086610;
+    border-radius: 20px;
+    z-index: 1;
+}
+.ydesc{
+
+    position: absolute;
+    top: 215px;
+    left: 90px;
+    color: #f1f1f1;
+    font-size: 20px;
+    z-index: 4;
+    width: 1200px;
+}
+#homedownimg1{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 1500px;
+    left: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#homedownimg2{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 1500px;
+    left: 475px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#homedownimg3{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 1500px;
+    left: 900px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#factordesc{
+    position: absolute;
+    top: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+   /* background-color: #4167d1;*/
+    width: 80%;
+    border-radius: 50px;
+}
+.downimg1{
+ position: absolute;
+ font-size: 20px;
+ width: 400px;
+ top: 1750px;
+ left: 50px;
+ color: white;
+ background-color: #209120;
+ height: 70px;
+ border-bottom-left-radius: 30px;
+ border-bottom-right-radius: 30px;
+}
+.downimg2{
+    position: absolute;
+   
+    width: 400px;
+    top: 1750px;
+    left: 475px;
+   
+    background-color: #209120;
+    height: 70px;
+    border-bottom-left-radius: 30px;
+ border-bottom-right-radius: 30px;
+}
+.downimg3{
+    position: absolute;
+   
+    width: 400px;
+    top: 1750px;
+    left: 900px;
+  
+    background-color: #209120;
+    height: 70px;
+    border-bottom-left-radius: 30px;
+ border-bottom-right-radius: 30px;
+}
+.downimgdesc1{
+    position: absolute;
+    font-weight: bold;
+    background-color: #209120;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.downimgdesc2{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    background-color: #209120;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 0px;
+}
+.downimgdesc3{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    background-color: #209120;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 0px;
+}
+#tess{
+    position: absolute;
+    top: 1200px;
+    opacity: 0;
+}
+#viewmore{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 1840px;
+    font-size: 25px;
+    width: 20%;
+    /*padding-bottom: -20px;
+    padding-top: 20px;*/
+    
+   /* background-color: #b5ca3d;*/
+    border-radius: 50px;
+    border: 1px solid white;
+}
+#finaldesc{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 1900px;
+    color: white;
+    /*background: linear-gradient(to bottom, #37e462 0%, #09941b 100%);*/
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%; 
+    width: 60%;
+}
+#finaltopic{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 1980px;
+    color: white;
+    background: linear-gradient(to bottom, #50e074 0%, #0a8f36 100%);
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%; 
+    width: 35%; 
+}
+#frontImageArea{
+    position: absolute;
+    background-color: #204dca;
+    width: 900px;
+    height: 500px;
+    top: 120px;
+    left: 230px;
+    z-index: 5;
+    opacity: 0;
+}
+.clickOn{
+    position: absolute;
+    top: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    
+}

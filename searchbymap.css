@@ -1,0 +1,335 @@
+
+#searchIntro{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    top: 100px;
+    
+}
+.map{
+    position: absolute;
+    top: 170px;
+    height: 450px;
+    border-radius: 50px;
+    left: 20px;
+}
+hr{
+    position: absolute;
+    z-index: 10;
+
+    /*top: 1000px;*/
+}
+#Jaffna{
+    position: absolute;
+    font-size: 15px;
+    width: 40px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 170px;
+    left: 90px;
+
+
+}
+#Kilinochchi{
+    position: absolute;
+    font-size: 15px;
+    width: 75px;
+    background-color:white;
+    text-align: center;
+
+    top: 210px;
+    left: 100px;
+
+
+}
+#Mullaitivu{
+    position: absolute;
+    font-size: 15px;
+    width: 65px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 232px;
+    left: 120px;
+
+
+}
+#Mannar{
+    position: absolute;
+    font-size: 15px;
+    width: 50px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 260px;
+    left: 60px;
+
+
+}
+#Vavuniya{
+    position: absolute;
+    font-size: 15px;
+    width: 60px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 255px;
+    left: 120px;
+
+
+}
+#Anuradhapura{
+    position: absolute;
+    font-size: 15px;
+    width: 90px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 310px;
+    left: 100px;
+
+
+}
+#Trincomalee{
+    position: absolute;
+    font-size: 15px;
+    width: 80px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 315px;
+    left: 200px;
+
+
+}
+#Puttalam{
+    position: absolute;
+    font-size: 15px;
+    width: 60px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 360px;
+    left: 50px;
+
+
+}
+#Kurunegala{
+    position: absolute;
+    font-size: 15px;
+    width: 70px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 390px;
+    left: 80px;
+
+
+}
+#Matale{
+    position: absolute;
+    font-size: 15px;
+    width: 45px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 405px;
+    left: 155px;
+
+
+}
+#Polonnaruwa{
+    position: absolute;
+    font-size: 15px;
+    width: 80px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 360px;
+    left: 180px;
+
+
+}
+#Battiloloa{
+    position: absolute;
+    font-size: 15px;
+    width: 60px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 390px;
+    left: 235px;
+
+
+}
+#Gampaha{
+    position: absolute;
+    font-size: 15px;
+    width: 60px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 465px;
+    left: 70px;
+
+
+}
+#Kegalle{
+    position: absolute;
+    font-size: 15px;
+    width: 50px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 449px;
+    left: 115px;
+
+
+}
+#Kandy{
+    position: absolute;
+    font-size: 15px;
+    width: 45px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 432px;
+    left: 150px;
+
+
+}
+#Badulla{
+    position: absolute;
+    font-size: 15px;
+    width: 50px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 455px;
+    left: 200px;
+
+
+}
+#Ampara{
+    position: absolute;
+    font-size: 15px;
+    width: 50px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 435px;
+    left: 255px;
+
+
+}
+#NuwaraEliya{
+    position: absolute;
+    font-size: 15px;
+    width: 90px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 475px;
+    left: 150px;
+
+
+}
+#Colombo{
+    position: absolute;
+    font-size: 15px;
+    width: 60px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 485px;
+    left: 70px;
+
+
+}
+#Kalutara{
+    position: absolute;
+    font-size: 15px;
+    width: 52px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 520px;
+    left: 80px;
+
+
+}
+
+#Ratnapura{
+    position: absolute;
+    font-size: 15px;
+    width: 62px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 525px;
+    left: 140px;
+
+
+}
+#Moneragala{
+    position: absolute;
+    font-size: 15px;
+    width: 71px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 500px;
+    left: 210px;
+
+
+}
+#Galle{
+    position: absolute;
+    font-size: 15px;
+    width: 40px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 560px;
+    left: 85px;
+
+
+}
+#Matara{
+    position: absolute;
+    font-size: 15px;
+    width: 42px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 570px;
+    left: 140px;
+
+
+}
+#Hambantota{
+    position: absolute;
+    font-size: 15px;
+    width: 80px;
+    background-color:white;
+    text-align: center;
+    height: 15px;
+    top: 560px;
+    left: 190px;
+
+
+}
+iframe{
+    position: absolute;
+    top: 180px;
+    left: 380px;
+    border: none;
+    height: 435px;
+    width: 960px;
+    z-index: 5;
+    
+}
+
+

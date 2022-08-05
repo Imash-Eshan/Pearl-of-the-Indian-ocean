@@ -1,0 +1,261 @@
+#intro{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    top: 100px;
+   
+}
+#activityimage{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 600px;
+    height: 300px;
+    border-radius: 40px;
+
+}
+#testbut{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+#testbut1{
+    position: absolute;
+    top: 550px;
+    left: 640px;
+    font-size: 20px;
+    background-color: rgb(39, 204, 39);
+    color: white;
+    z-index: 5;
+    border: none;
+    border-radius: 10px;
+}
+#activitytype1{
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype2{
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype3{
+    position: absolute;
+    top: 290px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype4{
+    position: absolute;
+    top: 330px;
+    z-index: 30;
+    left: 20px;
+}
+#activitytype5{
+    position: absolute;
+    top: 370px;
+    z-index: 30;
+    left: 20px;
+}
+#activitytype6{
+    position: absolute;
+    top: 410px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype7{
+    position: absolute;
+    top: 450px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype8{
+    position: absolute;
+    top: 490px;
+    z-index: 2;
+    left: 20px;
+}
+#activitytype9{
+    position: absolute;
+    top: 530px;
+    z-index: 2;
+    left: 100px;
+}
+#placeCaption{
+    position: absolute;
+    top: 240px;
+    left: 1040px;
+    font-size: 30px;
+    z-index: 2;
+    color: darkgreen;
+}
+/*#imgCaption{
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+    top: 250px;
+    left: 300px;
+    width: 600px;
+    height: 350px;
+
+    
+}*/
+.testpara{
+   
+
+
+
+    
+    z-index: 15;
+    font-size: 30px;
+    top: 350px;
+    opacity: 1;
+    position:relative;
+    text-align: center;
+    left: -10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.places1, .places2, .places3, .places4, .places5, .places6, .places7, .places8, .places9{
+    position: absolute;
+    font-size: 25px;
+    top:300px;
+    left:1050px;
+    color: white;
+    font-weight: bold;
+    z-index: 30;
+
+}
+#coverInfo{
+    position: absolute;
+    background-color: rgb(76, 221, 108);
+    top: 120px;
+    width: 100%;
+    left: 0px;
+    height: 600px;
+    z-index: 100;
+}
+#testtxt{
+    color: black;
+}
+
+
+.introdesc{
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    left: 40px;
+    top: 30px;
+    z-index: 101;
+    width: 95%;
+    color: white;
+}
+.startDesc{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 380px;
+    color: white;
+}
+/*Start button*/
+#start{
+    position: absolute;
+    font-size: 30px;
+    top: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 101;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(29, 146, 29);
+}
+
+/*images*/
+.demoimg1{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 190px;
+    left: 100px;
+    border-radius: 20px;
+    
+}
+.demoimg2{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 190px;
+    left: 500px;
+    border-radius: 20px;
+}
+.demoimg3{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 190px;
+    left: 900px;
+    border-radius: 20px;
+}
+hr{
+    position: absolute;
+    top: 200px;
+}
+.introContainer{
+    position: absolute;
+    background: linear-gradient(to bottom, #47b7eb 0%, #204dca 100%);
+    width: 96%;
+    height: 150px;
+    top: 20px;
+    z-index: 100;
+    left: 30px;
+    border-radius: 30px;
+    
+}
+#allContainer{
+    position: absolute;
+    height: 420px;
+    width: 83%;
+    background-color: rgb(224, 226, 90);
+    top: 190px;
+    left: 110px;
+    z-index: 0;
+    opacity: 1;
+    
+    
+
+}
+#allContainerleft{
+    position: absolute;
+    height: 420px;
+    width: 200px;
+    background-color: rgb(227, 230, 86);
+    top: 190px;
+    left: 10px;
+    z-index: 1;
+    border-radius: 50%;
+}
+#allContainerright{
+    position: absolute;
+    height: 420px;
+    width: 200px;
+    background-color: rgb(224, 226, 78);
+    top: 190px;
+    left: 1150px;
+    z-index: 1;
+    border-radius: 50%;
+}

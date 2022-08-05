@@ -1,0 +1,37 @@
+form{
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+    color: white;
+    left: 40px;
+}
+td{
+    width: 50%;
+    font-size: 20px;
+}
+input{
+    width: 400px;
+    font-size: 20px;
+}
+#msg{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 100px;
+    left: 415px;
+    
+}
+#init{
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 40px;
+    font-size: 25px;
+}
+#submit{
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    top: 420px;
+    left: 455px;
+}
