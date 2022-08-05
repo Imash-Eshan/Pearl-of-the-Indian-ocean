@@ -1,6 +1,3 @@
-
-console.log("wht da hell");
-
 var activtiyImageList=['pics/activties/diving.jpg', 'pics/activties/cruise.jpg', 'pics/activties/cuisine.png', 'pics/activties/hiking.webp', 'pics/activties/playing.jpg', 'pics/activties/safari.jpg', 'pics/activties/surfing.jpg', 'pics/activties/walking.jpg', 'pics/activties/whale.jpg',];
 var activityImage = document.getElementById('activityimage');
 //disposable
