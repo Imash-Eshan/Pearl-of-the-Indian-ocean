@@ -272,7 +272,7 @@ li a:hover{
     z-index: 8;
     font-weight:100;
     top: 40px;
-    left:1012px ;
+    left: 900px;
     background: linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%);
 color: rgb(255, 255, 255);
 padding: 10px;
@@ -286,7 +286,7 @@ cursor: pointer;
 position: fixed;
 display: inline-block;
 top: 89px;
-left: 1012px;
+left: 900px;
 z-index: 200;
 }
 
