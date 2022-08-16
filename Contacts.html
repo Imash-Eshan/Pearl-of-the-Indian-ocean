@@ -35,28 +35,33 @@
             <table >
                 <tr>
                     <td>Name</td>
-                    <td><input type="text" name="name" placeholder="Name"></td>
+                    <td><input type="text" name="name" placeholder="Name" id="name"></td>
                 </tr>
                 <tr>
                     <td>E-mail</td>
-                    <td><input type="email" placeholder="E-mail"></td>
+                    <td><input type="email" placeholder="E-mail" id="mail"></td>
                 </tr>
                 <tr>
                     <td>Contact number</td>
-                    <td><input type="tel" placeholder="Contact number"></td>
+                    <td><input type="tel" placeholder="Contact number" id="tel"></td>
                 </tr>
                 <tr>
                     <td>Message</td>
                    
                 </tr>
             </table>
-            <input type="text" id="msg" placeholder="Enter your message here">
+            <input type="text" id="msg" placeholder="Enter your message here" id="msg">
             
         </form>
 
         <button id="submit">Submit</button>
-       
+      
+        <p class="Errormsg">Please enter a valid Name</p>
+        <p class="Errormsg">Please enter a valid Email</p>
+        <p class="Errormsg">Please enter a valid Contact number</p>
+        <p class="Errormsg">Please enter a valid Message</p>
+      
 
-    
+    <script src="contacts.js"></script>
 </body>
 </html>

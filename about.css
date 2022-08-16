@@ -8,7 +8,7 @@
 }
 #aboutme{
     position: absolute;
-    top:50px;
+    top:10px;
     left: 30px;
     font-size: 35px;
     color: white;
@@ -16,7 +16,7 @@
 #selfintro{
     position: absolute;
     width: 95%;
-    top: 120px;
+    top: 60px;
     left: 30px;
     font-size: 25px;
     font-weight: bold;
@@ -45,4 +45,12 @@ a{
     left: 350px;
     top: 25px;
     border-radius: 50px;
+}
+.s1{
+    position: absolute;
+    top: 100px;
+}
+.s2{
+    position: absolute;
+    top: 150px;
 }

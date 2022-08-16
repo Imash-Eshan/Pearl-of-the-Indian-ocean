@@ -717,31 +717,31 @@ function activityHover(){
    switch(id){
 
       case 1:
-         activity1.style.backgroundColor='red';
+         activity1.style.backgroundColor='#14e45a';
          break;
       case 2:
-         activity2.style.backgroundColor='red';
+         activity2.style.backgroundColor='#14e45a';
          break;
       case 3:
-         activity3.style.backgroundColor='red';
+         activity3.style.backgroundColor='#14e45a';
          break;
       case 4:
-         activity4.style.backgroundColor='red';
+         activity4.style.backgroundColor='#14e45a';
          break;
       case 5:
-         activity5.style.backgroundColor='red';
+         activity5.style.backgroundColor='#14e45a';
          break;
       case 6:
-         activity6.style.backgroundColor='red';
+         activity6.style.backgroundColor='#14e45a';
          break;
       case 7:
-         activity7.style.backgroundColor='red';
+         activity7.style.backgroundColor='#14e45a';
          break;
       case 8:
-         activity8.style.backgroundColor='red';
+         activity8.style.backgroundColor='#14e45a';
          break;
       case 9:
-         activity9.style.backgroundColor='red';
+         activity9.style.backgroundColor='#14e45a';
          break;
    }
 
