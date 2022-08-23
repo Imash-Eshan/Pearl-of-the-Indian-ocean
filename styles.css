@@ -67,6 +67,7 @@
     list-style-type: none;
     /*background-color: rgb(195, 204, 72);*/
     background: linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%);
+    
     width: 405px;
     padding-left: 0px;
     padding-right: 0px;
@@ -90,7 +91,7 @@ li{
     padding-right: 20px;*/
 }
 li a:hover{
-    background-color: rgb(84, 85, 85);
+    background-color: rgb(54, 106, 219);
 }
 #hometab{
     border-top-left-radius: 30px;
@@ -736,7 +737,7 @@ body{
     right: 0;
     text-align: center;
     top: 1980px;
-    color: white;
+    color: rgb(255, 255, 255);
     background: linear-gradient(to bottom, #50e074 0%, #0a8f36 100%);
     border-radius: 20px;
     padding-left: 5%;

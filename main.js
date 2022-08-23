@@ -1,3 +1,4 @@
+console.log("test big00");
 var currentimage;
 var count=0;
 var leftSliderButton=document.getElementById('slider-left');
@@ -1376,10 +1377,14 @@ function right(){
 var dropDownMenu = document.getElementById('dropdown1');
 //Search button color change
 function colorActive(){
-  dropDownMenu.style.backgroundColor='rgb(84, 85, 85)';
+  dropDownMenu.style.background='none';
+  dropDownMenu.style.backgroundColor='rgb(54, 106, 219)';
+  
+  console.log('acttive');
 }
 function colorInactive(){
-  dropDownMenu.style.backgroundColor='rgb(137, 139, 138)';
+  dropDownMenu.style.background='linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%)' ;
+  //dropDownMenu.style.backgroundColor='red';
 }
 
 //var dropDownMenu = document.getElementsByClassName('drop');
@@ -1717,6 +1722,7 @@ frontImageArea.addEventListener('mouseout',spotLightoff);
 frontImage.addEventListener('mouseout', spotLightoff);*/
 
 dropDownMenu.addEventListener('mouseover',colorActive);
+
 dropDownMenu.addEventListener('mouseout',colorInactive);
 
 

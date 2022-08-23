@@ -8,6 +8,7 @@ var nameResult
 var emailResult;
 var contactNumResult;
 var msgResult;
+var clearNot;
 textboxes= document.getElementsByTagName('input');
 
 var errors = document.getElementsByClassName('Errormsg');
@@ -28,18 +29,23 @@ function errorDisappear(){
 errorDisappear();
 function clear(){
     
-     
-     for(var i =0;i<textboxes.length;i++){
+    if(clearNot<1){
+      for(var i =0;i<textboxes.length;i++){
         textboxes[i].value="";
      }
+    } 
+     
 
 }
 function validate(){
+  clearNot=0;
       nameValidate = /[\\\d]+/;
       nameResult=nameValidate.test(textboxes[0].value);
       //console.log('name '+nameResult);
       if(nameResult){
         errors[0].style.display='block';
+        clearNot++;
+
       }
       //console.log(nameResult);
 
@@ -49,6 +55,7 @@ function validate(){
       if(!emailResult){
         console.log(errors[1]);
         errors[1].style.display='block';
+        clearNot++;
       }
 
       contactNumValidate = /0[\\\d]{9}/;
@@ -56,6 +63,7 @@ function validate(){
       //console.log(contactNumResult);
       if(!contactNumResult){
         errors[2].style.display='block';
+        clearNot++;
       }
 
       msgValidate = /.+/;

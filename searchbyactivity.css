@@ -155,8 +155,10 @@
     left: 40px;
     top: 30px;
     z-index: 101;
-    width: 95%;
+    width: 93%;
+    padding-left: 15px;
     color: white;
+    
 }
 .startDesc{
     position: relative;
