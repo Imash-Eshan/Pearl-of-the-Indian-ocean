@@ -12,7 +12,7 @@ var mouse;
 var xxx = document.getElementsByClassName('slider-info');
 var viewMore = document.getElementById('viewmore');
 function viewmoreHover(){
-  viewMore.style.color='black';
+  viewMore.style.color='green';
 }
 function viewmoreUnHover(){
   viewMore.style.color='white';
@@ -1378,9 +1378,9 @@ var dropDownMenu = document.getElementById('dropdown1');
 //Search button color change
 function colorActive(){
   dropDownMenu.style.background='none';
-  dropDownMenu.style.backgroundColor='rgb(54, 106, 219)';
+  dropDownMenu.style.backgroundColor='rgb(31, 197, 86)';
   
-  console.log('acttive');
+  
 }
 function colorInactive(){
   dropDownMenu.style.background='linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%)' ;
