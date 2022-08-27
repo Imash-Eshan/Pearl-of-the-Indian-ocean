@@ -3,7 +3,7 @@ var aboutTab = document.getElementById('abouttab');
 var contactTab = document.getElementById('contactstab');
 function homeActive(){
   
-  aboutTab.style.backgroundColor='rgb(31, 197, 86)';
+  aboutTab.style.backgroundColor='rgb(31, 220, 109)';
  
   
 }
