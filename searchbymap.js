@@ -1256,7 +1256,11 @@ function HambantotaConnectorShrink(){
 }
 
 
+var dropDownMenu = document.getElementById('dropdown1');
+//Search button color change
 
+ 
+  dropDownMenu.style.backgroundColor='rgb(31, 197, 86)';
 
 
 //Event listneers

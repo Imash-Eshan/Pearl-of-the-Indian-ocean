@@ -75,10 +75,68 @@ function validate(){
 
 
 }
+
+var homeTab = document.getElementById('hometab');
+var aboutTab = document.getElementById('abouttab');
+var contactTab = document.getElementById('contactstab');
+function homeActive(){
+  
+  contactTab.style.backgroundColor='rgb(31, 197, 86)';
+ 
+  
+}
+function tabInactive(){
+  homeTab.style.backgroundColor='#d0db2d' ;
+  aboutTab.style.backgroundColor='#d0db2d' ;
+  contactTab.style.backgroundColor='#d0db2d' ;
+  
+}
+function hoverHome(){
+  homeTab.style.backgroundColor='rgb(31, 197, 86)';
+}
+function unhoverHome(){
+  homeTab.style.backgroundColor='#d0db2d';
+}
+
+function hoverAbout(){
+  aboutTab.style.backgroundColor='rgb(31, 197, 86)';
+}
+function unhoverAbout(){
+  aboutTab.style.backgroundColor='#d0db2d';
+}
+
+var dropDownMenu = document.getElementById('dropdown1');
+//Search button color change
+function colorActive(){
+ 
+  dropDownMenu.style.backgroundColor='rgb(31, 197, 86)';
+  
+  
+}
+function colorInactive(){
+  dropDownMenu.style.backgroundColor='#d0db2d' ;
+  //dropDownMenu.style.backgroundColor='red';
+}
+
+/*function hover(){
+  contactTab.style.backgroundColor='rgb(31, 197, 86)';
+}
+function unhoverHome(){
+  contactTab.style.backgroundColor='#d0db2d';
+}*/
+tabInactive();
+homeActive();
 /*clear();
 for(var i=0;i<textboxes.length;i++){
     console.log(textboxes[i]);
 }*/
+dropDownMenu.addEventListener('mouseover',colorActive);
+dropDownMenu.addEventListener('mouseout',colorInactive);
+homeTab.addEventListener('mouseover',hoverHome);
+homeTab.addEventListener('mouseout', unhoverHome);
+
+aboutTab.addEventListener('mouseover',hoverAbout);
+aboutTab.addEventListener('mouseout', unhoverAbout);
 submit.addEventListener('click', errorDisappear);
 submit.addEventListener('click',validate);
 submit.addEventListener('click',clear);

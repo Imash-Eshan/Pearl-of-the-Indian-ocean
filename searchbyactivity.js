@@ -747,6 +747,20 @@ function activityHover(){
 
 }
 
+
+var dropDownMenu = document.getElementById('dropdown1');
+//Search button color change
+
+ 
+  dropDownMenu.style.backgroundColor='rgb(31, 197, 86)';
+  
+  
+
+
+
+
+
+
 //g=window.setInterval(listen,3000);
 //window.clearInterval(g);
 //but.addEventListener('click',listen);

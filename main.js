@@ -1,4 +1,7 @@
-console.log("test big00");
+var dropDownMenu = document.getElementById('dropdown1');
+dropDownMenu.style.backgroundColor='#d0db2d';
+var falseSearch = document.getElementById('falseSearch');
+falseSearch.style.opacity=0.1;
 var currentimage;
 var count=0;
 var leftSliderButton=document.getElementById('slider-left');
@@ -53,6 +56,8 @@ for(var i =0;i<topicList.length;i++){
   topicList[i].style.fontSize='25px';
 
 }
+
+
 
 
 
@@ -1374,16 +1379,17 @@ function right(){
 
 
 
-var dropDownMenu = document.getElementById('dropdown1');
+
+
 //Search button color change
 function colorActive(){
-  dropDownMenu.style.background='none';
+ 
   dropDownMenu.style.backgroundColor='rgb(31, 197, 86)';
   
   
 }
 function colorInactive(){
-  dropDownMenu.style.background='linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%)' ;
+  dropDownMenu.style.backgroundColor='#d0db2d' ;
   //dropDownMenu.style.backgroundColor='red';
 }
 
@@ -1409,75 +1415,9 @@ const sliderimagelist=['file:///C:/Users/USER/Desktop/project/pics/beach.jpg','f
 const newlist = [document.getElementById('front'),document.getElementById('right1'),document.getElementById('left1'),document.getElementById('right2'),document.getElementById('left2')]
 
 
-//var frontImage = document.getElementById('front');
-/*
-var rightimage1 = document.getElementById('right1');*/
-/*rightimage1.src=sliderimagelist[1];
-frontimage.src=sliderimagelist[0];*/
 
 var p = document.getElementById('pkk');
 
-//Fron image slider functionality
-
- /*--------function nextInfoRight(){
-  currentimage=newlist[0];
-    if(currentimage.src==sliderimagelist[0]){
-        hide();
-        xxx[0].style.display='block';
-   
-    }else if(currentimage.src==sliderimagelist[1]){
-        hide();
-        xxx[1].style.display='block';
- 
-    }else if(currentimage.src==sliderimagelist[2]){
-        hide();
-        xxx[2].style.display='block';
-     
-    }else if(currentimage.src==sliderimagelist[3]){
-        hide();
-        xxx[3].style.display='block';
-    
-      
-    }else if(currentimage.src==sliderimagelist[4]){
-        hide();
-        xxx[4].style.display='block';
-       
-
-    }
-
- }--------*/
- /*--------function nextInfoLeft(){
-  currentimage=newlist[0];
-   
-    if(currentimage.src==sliderimagelist[0]){
-        hide();
-       
-        xxx[0].style.display='block';
-  
-    }else if(currentimage.src==sliderimagelist[4]){
-        hide();
-        
-        xxx[4].style.display='block';
-    
-    }else if(currentimage.src==sliderimagelist[3]){
-        hide();
-       
-        xxx[3].style.display='block';
-   
-    }else if(currentimage.src==sliderimagelist[2]){
-        hide();
-     
-        xxx[2].style.display='block';
-
-    }else if(currentimage.src==sliderimagelist[1]){
-        hide();
-       
-        xxx[1].style.display='block';
- 
-
-    }
-
- }------------*/
  //Slider Brightness change onmouseover
  function spotLight(){
   if(img1.style.height=='500px'){
@@ -1690,6 +1630,19 @@ function topicDeIdentify3(){
 }
 
 
+
+var homeTab = document.getElementById('hometab');
+var aboutTab = document.getElementById('abouttab');
+var contactTab = document.getElementById('contactstab');
+function homeActive(){
+  dropDownMenu.style.background='none';
+  homeTab.style.backgroundColor='rgb(31, 197, 86)';
+}
+function tabInactive(){
+  dropDownMenu.style.background='linear-gradient(to bottom, #c2eb2f 0%, #cabd04 100%)' ;
+}
+tabInactive();
+homeActive();
 
 
  
